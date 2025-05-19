@@ -7,7 +7,7 @@ let user_country = document.getElementById("country");
 let card = document.getElementById("card");
 
 function generateCard() {
-    let ramdom = Math.random() * 100000;
+    let ramdom = Math.random() * 20000;
     ramdom = Math.round(ramdom);
 
     let name = user_name.value.charAt(0).toUpperCase() + user_name.value.slice(1) || "UNKNOWN";
